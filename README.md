@@ -9,4 +9,4 @@ It could be run manually but that mirrors functionality already in Typinator. I 
 
 Use something like UnicodeChekcer or PopChar to browse for characters to add.
 
-n.b. if no string stripping is done with decimal number expansions. This will work fine with rules inserted with this script but will probably miss ones you’ve added yourself.
+n.b. no string stripping is done with decimal number expansions. This will work fine with rules inserted with this script but will probably miss ones you’ve added yourself.
