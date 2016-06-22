@@ -1,11 +1,11 @@
 # unicode2typinator
 ## New version
 I just added three file to the repository, which are intended to be used
-together with Keyboard Maestro: 
+together with Keyboard Maestro, as an alternative to the original : 
 
 1. Pop Char-KM Dialog.kmmacros
-2. unicode2typPt1.scpt
-3. unicode2typePt2.scpt
+2. unicode2typPt1.applescript
+3. unicode2typePt2.applescrpt
 
 The functionality is almost the same as the old version. However, it uses a
 Keyboard Maestro dialog which is postionable and remembers where you put

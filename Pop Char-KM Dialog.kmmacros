@@ -31,10 +31,12 @@
 						<string>Variable</string>
 						<key>IncludeStdErr</key>
 						<false/>
+						<key>IsDisclosed</key>
+						<false/>
 						<key>MacroActionType</key>
 						<string>ExecuteAppleScript</string>
 						<key>Path</key>
-						<string>/Users/shannon/src/apple_scripts/unicode2typPt1.scpt</string>
+						<string>/Users/shannon/src/unicode2typinator/unicode2typPt1.applescript</string>
 						<key>Text</key>
 						<string></string>
 						<key>TimeOutAbortsMacro</key>
@@ -141,7 +143,7 @@
 								<key>MacroActionType</key>
 								<string>ExecuteAppleScript</string>
 								<key>Path</key>
-								<string>/Users/shannon/src/apple_scripts/unicode2typPt2.scpt</string>
+								<string>/Users/shannon/src/unicode2typinator/unicode2typPt2.applescript</string>
 								<key>Text</key>
 								<string></string>
 								<key>TimeOutAbortsMacro</key>
@@ -161,7 +163,7 @@
 				<key>CreationDate</key>
 				<real>484223013.93366802</real>
 				<key>ModificationDate</key>
-				<real>488136907.45370102</real>
+				<real>488270957.01484501</real>
 				<key>Name</key>
 				<string>Pop Char-KM Dialog</string>
 				<key>Triggers</key>
