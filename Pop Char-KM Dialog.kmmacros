@@ -89,12 +89,10 @@
 										<true/>
 									</dict>
 								</array>
-								<key>IsDisclosed</key>
-								<false/>
 								<key>MacroActionType</key>
 								<string>PromptForUserInput</string>
 								<key>Prompt</key>
-								<string>Enter abbreviation for %Variable%inputChar%</string>
+								<string>For character: %Variable%inputChar%</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>Title</key>
@@ -163,7 +161,7 @@
 				<key>CreationDate</key>
 				<real>484223013.93366802</real>
 				<key>ModificationDate</key>
-				<real>488270957.01484501</real>
+				<real>488271596.33551198</real>
 				<key>Name</key>
 				<string>Pop Char-KM Dialog</string>
 				<key>Triggers</key>
