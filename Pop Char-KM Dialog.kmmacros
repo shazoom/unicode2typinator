@@ -105,6 +105,12 @@
 										<key>Variable</key>
 										<string>Abbreviation</string>
 									</dict>
+									<dict>
+										<key>Default</key>
+										<string></string>
+										<key>Variable</key>
+										<string>Description</string>
+									</dict>
 								</array>
 							</dict>
 							<dict>
@@ -112,8 +118,6 @@
 								<string>Variable</string>
 								<key>IncludeStdErr</key>
 								<true/>
-								<key>IsDisclosed</key>
-								<false/>
 								<key>MacroActionType</key>
 								<string>ExecuteShellScript</string>
 								<key>Path</key>
@@ -133,11 +137,31 @@
 							</dict>
 							<dict>
 								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>echo "$KMVAR_Description" | sed -e 's/^[ \t]*//' -e 's/[ \t]*$//' -e '/^$/d' -e 's/\n/ /g'  | iconv -c -f utf-8 -t ascii//translit</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>Description</string>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
 								<string>None</string>
 								<key>IncludeStdErr</key>
 								<true/>
-								<key>IsDisclosed</key>
-								<false/>
 								<key>MacroActionType</key>
 								<string>ExecuteAppleScript</string>
 								<key>Path</key>
@@ -161,7 +185,7 @@
 				<key>CreationDate</key>
 				<real>484223013.93366802</real>
 				<key>ModificationDate</key>
-				<real>488271596.33551198</real>
+				<real>488516285.60484999</real>
 				<key>Name</key>
 				<string>Pop Char-KM Dialog</string>
 				<key>Triggers</key>
